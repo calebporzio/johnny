@@ -1,0 +1,99 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+	color: blue;
+}
+
+.t-ac {
+	text-align: center;
+}
+
+.header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+    margin: 0;
+    top: 0;
+    position: fixed;
+    width: 100%; /* Full width */
+}
+
+.logol {
+  position: absolute;
+  left: 1;
+}
+
+.logor {
+  position: absolute;
+  right: 20;
+}
+
+.nav {
+    margin: 0;
+    line-height:30px;
+    background-color: rgb(126, 202, 67);
+    width:170px;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto;
+     padding:5px; 
+}
+
+.nav ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+.nav li {
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.nav li:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.nav a {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 800;
+    text-decoration: none;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+
+}
+
+.container {
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.footer {
+     background-color:black;
+    color:white;
+    clear:both;
+     text-align:center;
+     padding:5px; 
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    top: -140px;
+    left: 0;
+    visibility: hidden;
+}
+
+img {
+    padding: 5px;
+}
